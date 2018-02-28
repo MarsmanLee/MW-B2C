@@ -1,0 +1,105 @@
+@charset "UTF-8"; 
+/*清除所有元素内外间距*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0;
+}
+
+img, input, button, textarea {
+  border: none;
+  padding: 0;
+  margin: 0;
+  /*去掉input默认的蓝色边框*/
+  outline-style: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input {
+  font-family: "Microsoft YaHei";
+}
+
+select, input, textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  border: 0;
+  display:block; /*去除底边的像素*/
+}
+
+
+body {
+  font: 12px/18px Microsoft YaHei, Arial, Verdana;
+  color: #282828;
+  background: #efefef;
+}
+
+a{
+  color: #282828;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c45710;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/*去除标签默认格式*/
+s, i, em {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* 使用bootstrap时点击前没有下划线,点击后就有下划线了 */
+a:focus{text-decoration: none}
+
+/* 左浮动，右浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+/* 公共类 页面版心 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 颜色类 */
+.current{
+    color:#c45710;
+    border-bottom: 2px solid #c45710;
+    box-sizing: border-box;
+}
+
+
+
+
